@@ -6,3 +6,31 @@ $colorLightGrey: hsl(217, 12%, 63%);
 $colorMediumGrey: hsl(216, 12%, 54%);
 $colorDarkBlue: hsl(213, 19%, 18%);
 $colorVeryDarkBlue: hsl(216, 12%, 8%);
+body {
+  background-color: $colorVeryDarkBlue;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  font-size: 15px;
+  font-family: $fontMain;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: $colorDarkBlue;
+  padding: 20px;
+  border-radius: 10px;
+  .starIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: $colorMediumGrey;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  h1{color: $colorWhite;}
+}
