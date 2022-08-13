@@ -17,10 +17,12 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 375px;
+  justify-content: space-evenly;
+  max-width: 335px;
+  height: 360px;
   margin: 0 auto;
   background-color: $colorDarkBlue;
-  padding: 20px;
+  padding: 0 20px;
   border-radius: 10px;
   .starIcon {
     display: flex;
@@ -30,7 +32,35 @@ body {
     height: 40px;
     background-color: $colorMediumGrey;
     border-radius: 50%;
-    margin-bottom: 15px;
   }
-  h1{color: $colorWhite;}
+  h1 {
+    color: $colorWhite;
+  }
+  > p {
+    color: $colorLightGrey;
+  }
+  .boxScoreCircle {
+    display: flex;
+    justify-content: space-between;
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: $colorMediumGrey;
+      color: $colorLightGrey;
+    }
+  }
+  .btn {
+    height: 38px;
+    border: none;
+    border-radius: 30px;
+    font-family: $fontMain;
+    font-weight: 700;
+    background-color: $colorOrange;
+    color: $colorWhite;
+    letter-spacing: 2px;
+  }
 }
