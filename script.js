@@ -1,0 +1,1 @@
+const pArrays=document.querySelectorAll(".get")
