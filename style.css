@@ -62,6 +62,12 @@ body {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
   letter-spacing: 2px;
+  transition: 0.4s;
+}
+.container .btn:hover {
+  cursor: pointer;
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
 }
 
 /*# sourceMappingURL=style.css.map */

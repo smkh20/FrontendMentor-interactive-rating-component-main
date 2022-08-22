@@ -62,5 +62,11 @@ body {
     background-color: $colorOrange;
     color: $colorWhite;
     letter-spacing: 2px;
+    transition: 0.4s;
+    &:hover {
+      cursor: pointer;
+      background-color: $colorWhite;
+      color: $colorOrange;
+    }
   }
 }
