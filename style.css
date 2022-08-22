@@ -59,6 +59,15 @@ body {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
 }
+.container .boxScoreCircle p.active {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container .boxScoreCircle p.active:hover {
+  cursor: pointer;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
 .container .btn {
   height: 38px;
   border: none;
