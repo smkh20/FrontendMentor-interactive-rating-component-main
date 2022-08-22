@@ -52,6 +52,12 @@ body {
   border-radius: 50%;
   background-color: hsl(216deg, 12%, 54%);
   color: hsl(217deg, 12%, 63%);
+  transition: 0.3s;
+}
+.container .boxScoreCircle p:hover {
+  cursor: pointer;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
 }
 .container .btn {
   height: 38px;

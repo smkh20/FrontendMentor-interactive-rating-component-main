@@ -51,6 +51,12 @@ body {
       border-radius: 50%;
       background-color: $colorMediumGrey;
       color: $colorLightGrey;
+      transition: 0.3s;
+      &:hover {
+        cursor: pointer;
+        background-color: $colorOrange;
+        color: $colorWhite;
+      }
     }
   }
   .btn {
