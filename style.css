@@ -85,4 +85,9 @@ body {
   color: hsl(25deg, 97%, 53%);
 }
 
+.thanksvg {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
