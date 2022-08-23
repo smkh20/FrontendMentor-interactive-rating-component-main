@@ -101,3 +101,12 @@ body {
   height: 22px;
   margin: 0 auto;
 }
+#thank{
+  position: relative;
+  animation: show 1.2s ;
+}
+@keyframes show {
+  0%{bottom:160px}
+  100%{bottom:0px}
+  
+}
