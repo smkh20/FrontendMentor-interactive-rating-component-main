@@ -89,3 +89,13 @@ body {
   display: flex;
   justify-content: center;
 }
+#textSubmitedScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $colorOrange;
+  background-color: $colorMediumGrey;
+  text-align: center;
+  border-radius: 9px;
+  height: 22px;
+}

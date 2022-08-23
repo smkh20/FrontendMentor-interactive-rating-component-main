@@ -90,4 +90,15 @@ body {
   justify-content: center;
 }
 
+#textSubmitedScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsl(216deg, 12%, 54%);
+  text-align: center;
+  border-radius: 9px;
+  height: 22px;
+}
+
 /*# sourceMappingURL=style.css.map */
